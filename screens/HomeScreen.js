@@ -8,7 +8,7 @@ export default function App() {
     <NavigationContainer>
       <Stack.Navigator>
         <Stack.Screen name="Home" component={HomeScreen} />
-        <Stack.Screen name="Detail" component={DetailScreen} />
+        <Stack.Screen name="To-Dolist" component = {To-Dolist}/>
       </Stack.Navigator>
     </NavigationContainer>
   );
